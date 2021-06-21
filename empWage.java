@@ -1,12 +1,14 @@
 package com.bl.assignment;
 
 import java.util.Random;
-import java.util.Random;
+
 public class empWage {
     public static void main(String[] args) {
         System.out.println("Welcome to employee wage computation. ");
         Random rand = new Random();
 
+
+        int empHrs;
         int present = 1;
         int absent = 2;
         int part_time_present = 3;
@@ -25,6 +27,13 @@ public class empWage {
         else {
             System.out.println("Employee is absent.");
         }
+
+        switch (check) {
+            case 1 -> empHrs = 8;
+            case 2 -> empHrs = 0;
+            case 3 -> empHrs = 4;
+        }
+
 
     }
 }
