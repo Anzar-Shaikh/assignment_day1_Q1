@@ -16,6 +16,8 @@ public class empWage {
         int wage_per_hr = 20;
         int full_day_hr = 8;
         int part_time_hr = 4;
+        int max_working_days = 20;
+        int max_working_hrs = 20;
 
         if (check == present) {
             System.out.println("Employee is present.");
