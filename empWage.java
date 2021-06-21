@@ -10,6 +10,8 @@ public class empWage {
         int present = 1;
         int absent = 2;
         int check=rand.nextInt(3)+1;
+        int wage_per_hr = 20;
+        int full_day_hr = 8;
 
         if (check==present) {
             System.out.println("Employee is present.");
@@ -17,7 +19,6 @@ public class empWage {
         else {
             System.out.println("Employee is absent.");
         }
-
 
     }
 }
